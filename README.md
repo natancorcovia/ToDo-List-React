@@ -1,2 +1,25 @@
-# ToDo-List-React
+# 📋 ToDo List com React
 
+Este projeto é uma aplicação simples de *ToDo List (lista de tarefas)* desenvolvida com *React.js*, com o objetivo de aplicar os principais conceitos aprendidos em aula sobre o framework.
+
+## 🚀 Funcionalidades
+
+- Adicionar novas tarefas com título e descrição
+- Marcar tarefas como concluídas
+- Remover tarefas
+- Interface simples e responsiva com Tailwind CSS
+
+## 🧠 Conceitos Aplicados
+
+- Componentização com React
+- useState para gerenciamento de estado
+- Passagem de props entre componentes
+- Manipulação de eventos
+- Renderização condicional
+- Estilização com Tailwind CSS
+
+## 🛠 Tecnologias Utilizadas
+
+- [React.js](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)

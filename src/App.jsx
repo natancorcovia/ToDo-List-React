@@ -1,11 +1,29 @@
 import Tasks from "./componentes/Tasks";
 import AddTask from "./componentes/AddTask";
 import { useState } from "react";
+import { useEffect } from "react";
 import { v4 } from "uuid";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  //Lista de tarefas:
+  const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks")) || []);
 
+  //Armazena aa tarefas no localstorage, para não perder dados ao atualizar a pagina
+  useEffect(()=>{
+    localStorage.setItem("tasks" , JSON.stringify(tasks))
+  },[tasks])
+  
+  //Consome API que importa tarefas
+  useEffect(()=>{
+    async function fecthTasks() {
+    const response = await fetch ('https://jsonplaceholder.typicode.com/todos?_limit=10')
+    const data = await response.json()
+    setTasks(data)
+    }
+  //fecthTasks();
+  } , []);
+
+  //Risca tarefa na lista de tarefas
   function onTaskClick(taskId) {
     const newTasks = tasks.map((task) => {
       if (task.id === taskId) {
@@ -17,11 +35,13 @@ function App() {
     setTasks(newTasks);
   }
 
+  //Deleta a tarefa ao clicar no icone da lixeira
   function onDeleteTaskClick(taskId) {
     const newTasks = tasks.filter((task) => taskId !== task.id);
     setTasks(newTasks);
   }
 
+  //Adiciona nova tarefa à lista
   function onAddTaskSubmit(title, description) {
     const newTask = {
       id: v4(),

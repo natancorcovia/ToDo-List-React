@@ -32,7 +32,10 @@ Este projeto é uma aplicação simples de *ToDo List* desenvolvida com *React.j
 
 ![Preview da aplicação](./src/assets/screenshot.png)
 
-## 🌐 Deploy
+## 🌐 Projeto Online
 
-[![Deploy na Vercel](https://to-do-list-react-pi-kohl.vercel.app/)]
+Acesse a aplicação no navegador:  
+
+[![Deploy na Vercel](https://img.shields.io/badge/Deploy-Vercel-000?style=for-the-badge&logo=vercel)](https://to-do-list-react-pi-kohl.vercel.app/)
+
 

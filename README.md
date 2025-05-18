@@ -4,7 +4,7 @@ Este projeto é uma aplicação simples de *ToDo List* desenvolvida com *React.j
 
 ## 📸 Preview
 
-![Preview da aplicação](src/assets/screenshoot.png)
+![Preview da aplicação](src/assets/screenshot.png)
 
 ## 🚀 Funcionalidades
 

@@ -27,3 +27,12 @@ Este projeto é uma aplicação simples de *ToDo List* desenvolvida com *React.j
 - [React.js](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
+
+## 📸 Preview
+
+![Preview da aplicação](./src/assets/screenshot.png)
+
+## 🌐 Deploy
+
+[![Deploy na Vercel](https://to-do-list-react-pi-kohl.vercel.app/)]
+

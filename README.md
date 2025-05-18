@@ -2,6 +2,10 @@
 
 Este projeto é uma aplicação simples de *ToDo List* desenvolvida com *React.js*, com o objetivo de aplicar os principais conceitos aprendidos em aula sobre a biblioteca.
 
+## 📸 Preview
+
+![Preview da aplicação](src/assets/screenshoot.png)
+
 ## 🚀 Funcionalidades
 
 - Adicionar novas tarefas com título e descrição
@@ -27,10 +31,6 @@ Este projeto é uma aplicação simples de *ToDo List* desenvolvida com *React.j
 - [React.js](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS](https://tailwindcss.com/)
-
-## 📸 Preview
-
-![Preview da aplicação](src/assets/screenshoot.png)
 
 ## 🌐 Projeto Online
 

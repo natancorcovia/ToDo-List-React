@@ -4,7 +4,7 @@ import Input from "./Input";
 function AddTask({ onAddTaskSubmit }) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
-  console.log({ title, description });
+  
   return (
     <div className="space-y-4 p-6 bg-slate-200 rounded-md shadow flex flex-col">
       

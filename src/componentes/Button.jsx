@@ -2,7 +2,7 @@ function Button(props){
     return(
         <button
             {...props}
-            className="bg-slate-400 text-white p-2 rounded-md">
+            className="bg-[#FF5F1F] text-white p-2 rounded-md">
         </button>
     )
 }

@@ -9,7 +9,7 @@ function App() {
   //Lista de tarefas:
   const [tasks, setTasks] = useState(JSON.parse(localStorage.getItem("tasks")) || []);
 
-  //Armazena aa tarefas no localstorage, para não perder dados ao atualizar a pagina
+  //Armazena as tarefas no localstorage, para não perder dados ao atualizar a pagina
   useEffect(()=>{
     localStorage.setItem("tasks" , JSON.stringify(tasks))
   },[tasks])
@@ -54,8 +54,8 @@ function App() {
   }
 
   return (
-    <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
-      <div className="w-[500px] space-y-4">
+    <div className="w-screen h-screen bg-black flex justify-center p-20">
+      <div className="w-[600px] space-y-4">
         <Title>Gerenciador de Tarefas</Title>
         <AddTask onAddTaskSubmit={onAddTaskSubmit} />
         <Tasks
